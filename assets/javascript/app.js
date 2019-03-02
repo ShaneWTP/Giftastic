@@ -67,3 +67,8 @@ $(document).ready(function () {
 	$(document).on("click", ".gif", changeState);
 
 });
+
+//Unfortunately once my new button is rendered it does not create a new set of gifs based on that button.
+//It also stops all of my pre existing buttons from working. I've spent a lot of time on this and unfortunately
+//I have to work tonight so I'm not sure I will be able to go in and fix this issue. I'm thinking that once my
+//new button is created that it is messing my movies array up.
